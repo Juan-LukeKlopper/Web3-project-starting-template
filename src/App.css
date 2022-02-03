@@ -25,10 +25,40 @@
 }
 
 .waveButton {
+  color: whitesmoke;
+  background-color: black;
   cursor: pointer;
-  margin-top: 16px;
-  padding: 8px;
-  border: 0;
+  margin: 1vw;
+  padding: 2vh;
+  width: calc(85vw/2);
   border-radius: 5px;
-  
+  outline: 1px;
+  outline-color: whitesmoke;
+  outline-style: double;
+  font-size: 3vh;
+}
+
+.waveButton:hover {
+  background-color: whitesmoke;
+  color:black;
+}
+
+.connectButton {
+  color: whitesmoke;
+  background-color: black;
+  cursor: pointer;
+  align-self: center;
+  margin: auto;
+  padding: 2vh;
+  width: calc(85vw/2);
+  border-radius: 5px;
+  outline: 1px;
+  outline-color: whitesmoke;
+  outline-style: double;
+  font-size: 3vh;
+}
+
+.connectButton:hover {
+  background-color: whitesmoke;
+  color:black;
 }
